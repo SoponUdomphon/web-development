@@ -4,18 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Absolute</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+        .box-1{
+            background-color: blue;
+            border: solid 5px black;
+        }
+        .box-2{
+            background-color: aquamarine;
+            border: dotted 5px blue;
+        }
+        .box-3{
+            background-color: blueviolet;
+            border: dashed 5px rgb(229, 255, 0);
+        }
+        .box-4{
+            background-color: brown;
+            border: solid 5px black;
+            border-radius: 20px;
+        }
+        .box-5{
+            background-color: aqua;
+            border-top-style: solid;
+            border-bottom-style: dashed;
+            border-left-style: dotted;
+            border-right-style: double;
+        }
+    </style>
 </head>
 <body>
-    <p>1 times refer to html</p>
-    <div>
-        2 times
-        <div>
-            4 times
-            <div>
-                8 times
-            </div>
-        </div>
-    </div>
+    <div class="box-1"></div>
+    <hr>
+    <div class="box-2"></div>
+    <hr>
+    <div class="box-3"></div>
+    <hr>
+    <div class="box-4"></div>
+    <hr>
+    <div class="box-5"></div>
 </body>
 </html>
