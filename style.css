@@ -1,7 +1,12 @@
-p#message{
-    color: yellowgreen;
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+html{
+    font-size: 30px;
+    font-family: 'Bungee Spice', sans-serif;
 }
-/* header */
-h1.title{
-    color: pink;
+body{
+    font-size: 1rem;
+}
+div{
+    font-size: 2em;
 }
